@@ -1,0 +1,80 @@
+
+@font-face{
+    font-family:Schreibm; 
+    src:url("SpecialElite.ttf");
+      
+}
+
+body {
+    background:rgba(1,1,19);
+    background-repeat:no-repeat;
+    margin: 0; 
+    font-style: normal;
+    font-family: monospace; 
+}
+
+.kopf{ 
+    color: aliceblue;
+    background-color: black;
+    height: 10em;      
+
+}
+
+.kopf h1{
+    text-align: center; margin: 0 0;
+    padding-top: 1.5em;
+    font-family: Schreibm;
+    letter-spacing: 0.2em
+        
+}
+  
+.kopf a {
+    color: aliceblue;
+    font-size: 400%;
+    font-weight: bold;
+    display: inline-block;        
+}
+
+.nav{
+    background:rgba(85,2,27, .5);
+    margin-top: 10px;
+    font-family: Schreibm;
+    
+}
+.nav a{
+    width:25vw;
+    display: inline-block;
+    float:left;
+    text-align: center;
+    text-decoration: none;
+    color: white; 
+    font-size: 2vw;  
+}
+
+.nav a:hover{
+    background-color:whitesmoke .5;
+    color: grey;
+    transition: all 0.5s;
+    
+}
+
+#backimage {
+    z-index: 100
+    position: absolute
+    align-content: center;
+    width: 10vw;      
+}
+
+#background {
+    z-index: 100
+    position: absolute;
+    align-content: center;
+    width: 100vw
+}
+
+#content {
+    position: absolute;
+    z-index: 120;
+}
+    
+    
